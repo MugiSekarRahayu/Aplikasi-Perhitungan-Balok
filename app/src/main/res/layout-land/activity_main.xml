@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ChildLiner1"
+        android:gravity="center"
+        android:layout_width="391dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MENGHITUNG BALOK"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etPanjang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Panjang"
+                android:importantForAutofill="no"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etLebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Lebar"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etTinggi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Tinggi"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="521dp"
+            android:layout_height="219dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@+id/ChildLiner1">
+
+            <Button
+                android:id="@+id/btnKeliling"
+                android:layout_width="224dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:onClick="hitung_keliling"
+                android:text="KELILING"
+                android:textColor="#FCFCFC" />
+
+            <Button
+                android:id="@id/btnLuas"
+                android:layout_width="224dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:onClick="hitung_luas"
+                android:text="LUAS"
+                android:textColor="#FCFCFC" />
+
+            <Button
+                android:id="@id/btnVolume"
+                android:layout_width="224dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#3F51B5"
+                android:onClick="hitung_volume"
+                android:text="VOLUME"
+                android:textColor="#FCFCFC" />
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

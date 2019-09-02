@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UH1</string>
+    <string name="header_tv_label">Menghitung Balok</string>
+    <string name="label_btn_keliling">keliling</string>
+    <string name="label_btn_luas">Luas</string>
+    <string name="label_btn_volume">Volume</string>
+    <string name="menghitung_balok">hitung_balok</string>
+    <string name="keliling_btn_label">keliling_btn</string>
+    <string name="luas_btn_label">luas_label</string>
+    <string name="header_lebel">header_label</string>
+    <string name="label_panjang">panjang_label</string>
+    <string name="label_lebar">label_lebar</string>
+    <string name="label_tinggi">label_tinggi</string>
+    <string name="btnKeliling">btn_keliling</string>
+    <string name="btnLuas">btn_luas</string>
+    <string name="btnVolume">btn_volume</string>
+    <string name="luas_btn">LUAS</string>
+    <string name="keliling_btn">KELILING</string>
+    <string name="hasil">0</string>
+    <string name="hasil_">HASIL</string>
+</resources>
